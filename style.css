@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: none;
+  font-size: 60px;
+  border: 1px solid gray;
+  width: 80%;
+  max-width: 450px;
+}
+
+/*320px — 480px: dispositivos móveis*/
+@media screen and (min-width: 0px) {
+  #mobile {
+    display: inline-flex;
+    justify-content: center;
+  }
+}
+
+/*481px — 768px: iPads, tablets*/
+@media screen and (min-width: 481px) {
+  #mobile {
+    display: none;
+  }
+  #tablet {
+    display: inline-flex;
+    justify-content: center;
+  }
+}
+/*769px — 1024px: telas pequenas, laptops*/
+@media screen and (min-width: 769px) {
+  #tablet {
+    display: none;
+  }
+  #notebook {
+    display: inline-flex;
+    justify-content: center;
+  }
+}
+/*1025px — 1200px: desktops, telas grandes*/
+@media screen and (min-width: 1025px) {
+  #notebook {
+    display: none;
+  }
+  #desktop {
+    display: inline-flex;
+    justify-content: center;
+  }
+}
+
+/*1201px e acima —  telas muito grandes, TVs*/
+@media screen and (min-width: 1201px) {
+  #desktop {
+    display: none;
+  }
+  #bigScreen {
+    display: inline-flex;
+    justify-content: center;
+  }
+}
+/*
+@media screen and (orientation: portrait) {
+  #portrait {
+    color: brown;
+    display: inline;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #landscape {
+    color: blue;
+    display: inline;
+  }
+}*/
