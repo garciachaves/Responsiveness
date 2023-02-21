@@ -1,7 +1,7 @@
 ## Responsiveness
 ### HTML | CSS 
 
-Pequeno projeto para praticar e registrar os tamanhos das telas para utilizar nos projetos de páginas responsivas utilizando o recurso de media query (CSS). Neste projeto, o texto no centro da página muda de acordo com a resolução da tela conforme os breakpoints mais comuns em termos de largura dos dispositivos.
+Pequeno projeto para praticar e registrar os tamanhos das telas para utilizar nos projetos de páginas responsivas utilizando o recurso de media query (CSS). Neste projeto, o texto no centro da página muda de acordo com a resolução da tela conforme os breakpoints mais comuns em termos de largura dos dispositivos. O valores foram retirados do site da FreeCodeCamp.
 
 |Breakpoints||
 |-----------|---------------- |
